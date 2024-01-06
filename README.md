@@ -23,43 +23,43 @@ Calibration for Precision:
 
 Create a user-friendly interface, enabling easy setup and usage of the Smart Glove, promoting its adoption among users and caregivers.
 
-### Detailed Steps
-#### 1. Hardware Setup
+## Detailed Steps
+### 1. Hardware Setup
 
-##### Flex Sensors:
+#### Flex Sensors:
 - Integrate Flex Sensors onto the glove, strategically placing them to capture diverse hand gestures.
-##### ESP32:
+#### ESP32:
 - Connect the Flex Sensors to the ESP32 microcontroller, ensuring secure and functional wiring.
 
-#### 2. Calibration Using Arduino IDE
+### 2. Calibration Using Arduino IDE
 
 - Upload the provided calibration code to the ESP32 through the Arduino IDE.
 - Follow calibration instructions to fine-tune sensor readings, ensuring precise gesture recognition.
 
-#### 3. Audio File Preparation
+### 3. Audio File Preparation
    
 - Populate the data/ directory with audio files corresponding to specific sign language gestures (e.g., 1.wav, 2.wav, etc.).
 - Ensure sequential naming of audio files for accurate mapping with recognized gestures.
 
-#### 4. Serial Connection Configuration
+### 4. Serial Connection Configuration
    
-In the Python script, configure the serial connection parameters (e.g., COM12, 9600) to match the ESP32's communication port.
+- In the Python script, configure the serial connection parameters (e.g., COM12, 9600) to match the ESP32's communication port.
 
-#### 5. Run the Python Script
+### 5. Run the Python Script
    
 - Execute the Python script to initiate the real-time monitoring of gestures from the ESP32.
 
 - Observe the console for gesture recognition feedback.
 
-#### 6. Gesture Recognition and Audio Output
+### 6. Gesture Recognition and Audio Output
    
-As gestures are recognized (non-zero action), the script triggers the playback of the corresponding audio file from the data/ directory.
+- As gestures are recognized (non-zero action), the script triggers the playback of the corresponding audio file from the data/ directory.
 
-#### 7. Iterative Testing and Improvement
+### 7. Iterative Testing and Improvement
    
-Conduct iterative testing to refine gesture recognition accuracy and audio playback synchronization.
+- Conduct iterative testing to refine gesture recognition accuracy and audio playback synchronization.
 
-Seek user feedback and make necessary adjustments for an optimal user experience.
+- Seek user feedback and make necessary adjustments for an optimal user experience.
 
 ## Acknowledgments
 This project is inspired by the commitment to inclusivity and technological innovation. Special thanks to the open-source community for contributing to the development of this impactful solution.
