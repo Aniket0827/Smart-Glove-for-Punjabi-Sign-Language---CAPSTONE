@@ -5,7 +5,7 @@ Smart Glove for Punjabi Sign Language
 ## Project Overview
 The Smart Glove for Punjabi Sign Language is an innovative initiative designed to enhance communication accessibility for individuals using sign language. This project incorporates advanced hardware components such as Flex Sensors and an ESP32 microcontroller, calibrated through the Arduino IDE. The system employs a Python script to interpret gestures in real-time and trigger corresponding audio outputs, offering a valuable tool for the hearing-impaired.
 The sign language used is refered from the All India Pingalwara Charitable Society (Regd) Amritsar.
-Link:https://pingalwara.org/insights/learn-sign-language-in-punjabi/
+Link - https://pingalwara.org/insights/learn-sign-language-in-punjabi/
 
 ## Project Objectives
 ### Accessibility Enhancement:
