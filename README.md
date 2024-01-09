@@ -1,4 +1,5 @@
 # Smart-Glove-for-Punjabi-Sign-Language---CAPSTONE
+The Smart Glove for Punjabi Sign Language is an innovative initiative designed to enhance communication accessibility for individuals using sign language.
 
 Smart Glove for Punjabi Sign Language
 
